@@ -1,0 +1,107 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.posts-list article {
+    margin-bottom: 20px;
+}
+
+.posts-list article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.posts-list article p {
+    font-size: 1em;
+}
+
+/* Form Styling */
+.new-post-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.new-post-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-post-form form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.new-post-form form input,
+.new-post-form form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.new-post-form form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.new-post-form form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
